@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { notFound } from "next/navigation";
-
 import { Theme } from "@radix-ui/themes";
+import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider, type Locale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Inter } from "next/font/google";
+import { notFound } from "next/navigation";
 
 import { routing } from "@/i18n/routing";
 

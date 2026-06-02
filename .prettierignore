@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.*
+.yarn
+
+# Build output
+.next
+out
+build
+coverage
+
+# Environment and generated files
+.env*
+next-env.d.ts
+*.tsbuildinfo
+messages/*.d.json.ts
+src/generated/prisma
+
+# Misc
+.DS_Store
